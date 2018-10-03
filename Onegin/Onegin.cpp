@@ -101,6 +101,8 @@ int sortFile(const char * in_path, const char * out_path) {
 
     delete [] buffer;
     delete [] lines;
+
+    return 0;
 }
 
 //---------------------------------------------------------
